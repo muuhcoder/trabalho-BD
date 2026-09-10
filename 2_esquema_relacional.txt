@@ -1,0 +1,19 @@
+ESQUEMA RELACIONAL — CLÍNICA VETERINÁRIA
+
+CLIENTE (CPF, Nome, Telefone)
+- CPF: PK
+
+ANIMAL (Codigo, Nome, Ano_Nascimento, Raca, CPF_Cliente)
+- Codigo: PK
+- CPF_Cliente: FK referencia CLIENTE
+
+VETERINARIO (CRMV, Nome, Data_Admissao, Salario)
+- CRMV: PK
+
+CONSULTA (Codigo_Animal, CRMV_Veterinario, Data, Hora, Motivo)
+- Codigo_Animal: PK, FK referencia ANIMAL
+- CRMV_Veterinario: PK, FK referencia VETERINARIO
+- Data: PK
+
+Observação:
+A relação entre Veterinário e Animal é N:N, pois um veterinário pode realizar várias consultas e um animal pode ter várias consultas. A tabela CONSULTA resolve esse relacionamento. Como o cenário não fornece um identificador próprio para consulta, foi usada uma chave composta (Codigo_Animal, CRMV_Veterinario, Data).
