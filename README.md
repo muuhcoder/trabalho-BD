@@ -27,15 +27,11 @@ O relacionamento entre Veterinário e Animal é N:N, representado pela entidade 
 
 ## Divisão das tarefas
 
-- Integrante 1: levantamento de entidades, atributos e requisitos.
-- Integrante 2: elaboração e revisão do DER.
-- Integrante 3: conversão para o esquema relacional e elaboração do dicionário de dados.
-- Integrante 4: elaboração/revisão do script SQL e documentação.
+- Murilo: levantamento de entidades, atributos e requisitos.
+- Murilo: elaboração e revisão do DER.
+- Michel: conversão para o esquema relacional e elaboração do dicionário de dados.
+- Michel: elaboração/revisão do script SQL e documentação.
 
 ## Integrantes
 
-Preencher com os nomes completos dos integrantes do grupo.
-
-## Observações
-
-O modelo segue os requisitos descritos no cenário fornecido. A tabela `Consulta` foi utilizada para representar o relacionamento N:N entre Veterinário e Animal. Como o cenário não especifica um identificador próprio para consulta, foi adotada uma chave composta para essa tabela.
+Murilo Gonçalves Fermino
