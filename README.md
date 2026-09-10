@@ -34,5 +34,5 @@ O relacionamento entre Veterinário e Animal é N:N, representado pela entidade 
 
 ## Integrantes
 
-Murilo Gonçalves Fermino
+Murilo Gonçalves Fermino, 
 Michel Teixeira Lima
